@@ -11,7 +11,7 @@ class Home extends CI_Controller
     $this->load->model('M_berita');
     $this->load->model('M_kategori');
     $this->load->model('M_layanan');
-    $this->load->model('M_Setting');
+    $this->load->model('M_setting');
     $this->load->model('M_staff');
     $this->load->model('M_portfolio');
     $this->load->model('M_client');
@@ -23,7 +23,7 @@ class Home extends CI_Controller
     // LOAD FUNCTION DARI MODEL
     $berita = $this->M_berita->recent_berita();
     $layanan = $this->M_layanan->daftar();
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $staff  = $this->M_staff->daftar();
     $portfolio = $this->M_portfolio->daftar();
     $client  = $this->M_client->daftar();
@@ -53,7 +53,7 @@ class Home extends CI_Controller
     $lastst_berita = $this->M_berita->lastst_berita();
     $kategori = $this->M_kategori->daftarKategoriBerita();
     $layanan = $this->M_layanan->daftar();
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
 
@@ -79,7 +79,7 @@ class Home extends CI_Controller
     $berita = $this->M_berita->read($slug_berita);
     $layanan = $this->M_layanan->daftar();
     $kategori = $this->M_kategori->daftarKategoriBerita();
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
 
@@ -103,7 +103,7 @@ class Home extends CI_Controller
     // LOAD FUNCTION DARI MODEL
     $detail = $this->M_layanan->read($slug_layanan);
     $layanan = $this->M_layanan->daftar();
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
 
@@ -125,7 +125,7 @@ class Home extends CI_Controller
     // LOAD FUNCTION DARI MODEL
     $berita = $this->M_berita->recent_berita();
     $layanan = $this->M_layanan->daftar();
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
     $staff  = $this->M_staff->daftar();
