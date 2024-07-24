@@ -7,7 +7,7 @@
   padding: 20px;
 }
 </style>
-<section id="hero" class="clients" style="height: 1000px; background-image: url('<?= base_url(); ?>vendor/front-end/assets/img/bg4.jpg');" >
+<section id="hero" class="clients" style="height: 1200px; background-image: url('<?= base_url(); ?>vendor/front-end/assets/img/bg4.jpg');" >
 <header class="section-header">
         <h2></h2>
         <p></p>
@@ -40,7 +40,7 @@
       </header>
 
   <div class="container-fluid" data-aos="fade-up">
-      <div class="testimonials-slider swiper-container" style="width: 1500px; opacity:1;"  data-aos="fade-up" data-aos-delay="200">
+      <div class="testimonials-slider swiper-container" style="width: 75%; opacity:1;"  data-aos="fade-up" data-aos-delay="200">
         <div class="swiper-wrapper">
           <?php foreach ($client as $key => $value) :
             if ($value->publish == "Publish") : ?>
@@ -54,7 +54,7 @@
               
               <div class="swiper-slide">
               <div class="text" style="color:blue">Drone Mapping</div>
-              <img src="<?= base_url(); ?>vendor/front-end/assets/img/wtpfix.gif" style="width: 4000px;" class="img-fluid" alt="">
+              <img src="<?= base_url(); ?>vendor/front-end/assets/img/wtpfix.gif" style="width: 100%;" class="img-fluid" alt="">
               </div>
               <div class="center">
                 
@@ -69,7 +69,7 @@
                 </div> -->
               <div class="swiper-slide">
               <div class="text"style="color:blue">Topography Survey</div>
-              <img src="<?= base_url(); ?>vendor/front-end/assets/img/gis4a.gif" style="width: 2000px;" class="img-fluid" alt="">
+              <img src="<?= base_url(); ?>vendor/front-end/assets/img/gis4a.gif" style="width: 100%;" class="img-fluid" alt="">
               
               </div>
               <div class="center">
@@ -77,7 +77,7 @@
                 </div>
               <div class="swiper-slide">
               <div class="text"style="color:blue">Architecture Modeling</div>
-              <img src="<?= base_url(); ?>vendor/front-end/assets/img/IPLT.gif" style="width: 6000px;" class="img-fluid" alt="">
+              <img src="<?= base_url(); ?>vendor/front-end/assets/img/IPLT.gif" style="width: 100%;" class="img-fluid" alt="">
               
               </div>
               <div class="center">
@@ -85,7 +85,7 @@
                 </div>
               <div class="swiper-slide">
               <div class="text"style="color:blue">Urban Planning</div>
-              <img src="<?= base_url(); ?>vendor/front-end/assets/img/jayapura1.gif" style="width: 600px;" class="img-fluid" alt="">
+              <img src="<?= base_url(); ?>vendor/front-end/assets/img/jayapura1.gif" style="width: 100%;" class="img-fluid" alt="">
               
               </div>
               <div class="center">
@@ -109,12 +109,12 @@
 
 <main id="main">
   <!-- ======= About Section ======= -->
-  <section id="about" class="about" style="height: 1000px; background-image: url('<?= base_url(); ?>vendor/front-end/assets/img/bcf.jpg');" >
+  <section id="about" class="about" style="height: 100%; background-image: url('<?= base_url(); ?>vendor/front-end/assets/img/bcf.jpg');" >
 
     <div class="container" data-aos="fade-up">
       <div class="row gx-0">
 
-        <div class="col-lg-4 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
           <div class="content card">
             <h3>Who We Are</h3>
             <p>
@@ -130,8 +130,8 @@
         </div>
 
         <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>vendor/front-end/assets/img/legal.jpg" class="img-fluid" style="height: 800px" alt="">
-          <img src="<?= base_url(); ?>vendor/front-end/assets/img/KBLI.jpeg" class="img-fluid" style="height: 1000px" alt="">
+          <img src="<?= base_url(); ?>vendor/front-end/assets/img/legal.jpg" class="img-fluid" style="height: 100%" alt="">
+          <!-- <img src="<?= base_url(); ?>vendor/front-end/assets/img/KBLI.jpeg" class="img-fluid" style="height: 100%" alt=""> -->
         </div>
 
       </div>
@@ -140,7 +140,7 @@
   </section><!-- End About Section -->
 
   <!-- ======= Values Section ======= -->
-  <section id="values" class="values" style="height: 1000px; background-image: url('<?= base_url(); ?>vendor/front-end/assets/img/g.jpg');">
+  <section id="values" class="values" style="height: 100%; background-image: url('<?= base_url(); ?>vendor/front-end/assets/img/g.jpg');">
 
     <div class="container" data-aos="fade-up">
 
@@ -154,56 +154,56 @@
 
         <div class="col-lg-3">
           <div class="box" data-aos="fade-up" data-aos-delay="200">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v1.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v1.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Mengutamakan iman dan takwa dalam setiap pekerjaan.</h3>
             </div>
         </div>
 
         <div class="col-lg-3 mt-3 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="400">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v2.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v2.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Menjaga kepercayaan klien dengan menghasilkan Produk yang berkualitas.</h3>
             </div>
         </div>
 
         <div class="col-lg-3 mt-3 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v3.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v3.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Komunikatif sehingga menciptakan kesepahaman bersama.</h3>
             </div>
         </div>
 
         <div class="col-lg-3 mt-3 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v4.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v4.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Informatif.</h3>
             </div>
         </div>
 
         <div class="col-lg-3 mt-3 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v5.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v5.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Pekerjaan sesuai jadwal yang telah disepakati.</h3>
             </div>
         </div>
 
         <div class="col-lg-3 mt-3 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v6.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v6.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Usaha perbaikan pelayanan secara berkesinambungan.</h3>
             </div>
         </div>
 
         <div class="col-lg-3 mt-3 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v7.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v7.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Meningkatkan penguasaan teknologi dan inovasi.</h3>
             </div>
         </div>
 
         <div class="col-lg-3 mt-3 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v8.png" class="img-fluid" alt="">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/v8.png" class="img-fluid" alt="" style="height: 200px; width:220px;">
             <h3>Setiap pelayanan harus memberikan manfaat bagi pengguna jasa, lingkungan sekitar dan negara.</h3>
             </div>
         </div>
