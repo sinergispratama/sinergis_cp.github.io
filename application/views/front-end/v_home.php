@@ -85,7 +85,7 @@
                 </div>
               <div class="swiper-slide">
               <div class="text"style="color:blue">Urban Planning</div>
-              <img src="<?= base_url(); ?>vendor/front-end/assets/img/Jayapura1.gif" style="width: 600px;" class="img-fluid" alt="">
+              <img src="<?= base_url(); ?>vendor/front-end/assets/img/jayapura1.gif" style="width: 600px;" class="img-fluid" alt="">
               
               </div>
               <div class="center">
